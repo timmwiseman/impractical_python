@@ -7,10 +7,9 @@ class name_generator():
         print('init itself does nothing, use the generate method')
 
     def generate():
-      try:
-        print("Welcome to the name generator. \n")
-      finally:
+
         while True:
+          print("Welcome to the name generator. \n")
           firstname = random.choice(first)
           lastname = random.choice(last)
 
